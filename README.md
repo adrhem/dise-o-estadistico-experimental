@@ -3,4 +3,5 @@ Este repositorio contiene materiales y recursos relacionados con el curso de Dis
 
 ## Contenido
 1. [Tarea 1: Planteamiento de un problema, marco teórico y alcance](tarea1/README.md)
-2. [Tarea 2: Medidas centrales](tarea2/README.md)
+2. [Tarea 2: Diseño de la investigación](tarea2/README.md)
+3. [Tarea 3: Medidas centrales](tarea3/README.md)
