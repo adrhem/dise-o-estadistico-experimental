@@ -39,7 +39,7 @@ Precisión de "Danceability": **84.54421094%**
 (Usando pandas: **84.54421094%**)
 
 ### Resultados
-Tomando en cuenta los datos obtenidos podemos observar que la desviación estándar (0.11289899) y la varianza (0.01274618) indican que hay una dispersión moderada en los valores de "danceability". Esto significa que las canciones en el conjunto de datos tienen niveles de bailabilidad que varían, pero no de manera extrema.
+Tomando en cuenta los datos obtenidos podemos observar que la desviación estándar (0.11289899) y la varianza (0.01274618) indican que hay una dispersión moderada en los valores de "danceability". Esto significa que las canciones en el conjunto de datos tienen niveles de bailabilidad que varían, pero no de manera extrema. Lo cual nos ayuda a entender que hay diversidad en las canciones en términos de qué tan bailable es cada una.
 
 El coeficiente de variación del 15.46% y la precisión del 84.54% sugieren que la variabilidad relativa es baja, lo que implica que la mayoría de las canciones tienen niveles de bailabilidad homogéneas.
 
