@@ -10,18 +10,31 @@ from operaciones import Operaciones
 #          'speechiness', 'acousticness', 'instrumentalness', 
 #          'liveness', 'valence', 'tempo', 'time_signature']
 
-# La clasificación serán tomadas por la columna daily_rank, que va de 1 a 50
-# El valor que queremos obtener es el promedio de cada clase basado en duration_ms
+# La clasificación serán tomadas por la columna 'danceability'.
 
-if len(sys.argv) < 2 or sys.argv[1] not in ['frecuencia', 'histograma']:
+operaciones_disponibles = [
+    'frecuencias-tabla',
+    'frecuencias-grafico',
+    'frecuencia-relativa',
+    'media',
+    'media-clases'
+]
+
+if len(sys.argv) < 2 or sys.argv[1] not in operaciones_disponibles:
     print("Uso: python main.py <operacion>\n" \
-    "          <operacion>: 'frecuencia', 'histograma'")
+    "          <operacion>: %s" % ', '.join(operaciones_disponibles))
     sys.exit(1)
 
 operacion = sys.argv[1]
 data = pd.read_csv('../spotify_mx.csv')
 
-if operacion == 'frecuencia':
-    Operaciones.frecuencia(data)
-elif operacion == 'histograma':
-    Operaciones.histograma(data)
+if operacion == 'frecuencias-tabla':
+    Operaciones.tabla_frecuencias(data)
+elif operacion == 'frecuencias-grafico':
+    Operaciones.grafico_frecuencias(data)
+elif operacion == 'frecuencia-relativa':
+    Operaciones.frecuencia_relativa(data)
+elif operacion == 'media':
+    Operaciones.media(data)
+elif operacion == 'media-clases':
+    Operaciones.media_clases(data)
