@@ -62,7 +62,7 @@ python main.py media
 
 La media de 'Danceability' es: **0.7305**
 
-## Media de claes
+## Media de clases
 Para ejecutar el código, usa el siguiente comando en la terminal:
 
 ```bash
