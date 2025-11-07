@@ -29,6 +29,8 @@ Para obtener el gráfico de frecuencias, usa el siguiente comando en la terminal
 python main.py frecuencias-grafico
 ```
 
+<img width="640" height="480" alt="Gráfico" src="https://github.com/user-attachments/assets/2c1c5987-be12-4f86-b294-1e6fed2441bf" />
+
 
 ## Frecuencia relativa de clases
 Para ejecutar el código, usa el siguiente comando en la terminal:
