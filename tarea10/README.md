@@ -22,6 +22,8 @@ danceability  valence  -0.0567 0.0179 -0.1064  -0.007   True
 ------------------------------------------------------------
 ```
 
+### Análisis de resultados
+
 Para los grupos "danceability", "energy", "loudness" y "valence", se observa que hay diferencias significativas en las medias de "loudness" y "valence" en comparación con las otras variables. Esto sugiere que estas características tienen un impacto diferente en la música analizada, lo cual es relevante para entender cómo varían estas propiedades en las canciones populares en Spotify México.
 
 Los niveles utilizados son cuatro, correspondientes a las cuatro variables seleccionadas. No se aplicó replicación ya que cada variable representa una característica distinta de las canciones.
